@@ -541,7 +541,7 @@ ax_left.legend()
 ax_left.set_xlabel('X (m)')
 ax_left.set_ylabel('Y (m)')
 ax_left.set_zlabel('Z (m)')
-ax_left.set_title('3D Position Plot') # Fixed: was 'ax.'
+ax_left.set_title('3D Position Plot')
 
 # 4. Plot Right Top (X Error)
 ax_right_top.plot(t_log, pos_x_interp - pos_log[:,0], label='Position X Error')
